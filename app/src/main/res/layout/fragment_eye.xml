@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/FullScreenTheme"
+    tools:context=".fragment.EyeFragment"
+
+    >
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+     />
+    <ImageView
+        android:id="@+id/tm_flip_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/guideline_right_camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_camera"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/ic_switch_cam"
+       />
+    <ImageView
+        android:id="@+id/im_eye"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/img_eye"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal"
+        android:importantForAccessibility="no" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/im_eye_scan"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:lottie_rawRes="@raw/js_eye_scan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal"
+        android:visibility="invisible"
+        android:importantForAccessibility="no" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_start"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_btn"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/btn_get_start"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:text="@string/get_start"-->
+<!--        />-->
+
+    <RelativeLayout
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_btn"
+        android:gravity="center"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/bg_btn"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_55sdp"
+            app:lottie_rawRes="@raw/js_btn_get_started"
+            app:lottie_autoPlay="true"
+            android:layout_centerHorizontal="true"
+            app:lottie_loop="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_start"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_analyzing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_btn"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/analyzing"
+        android:visibility="gone"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_right_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

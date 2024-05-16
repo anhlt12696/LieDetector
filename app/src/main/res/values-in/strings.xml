@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pendeteksi kebohongan</string>
+    <string name="select_language">BAHASA</string>
+    <string name="english">Bahasa inggris</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Orang Spanyol</string>
+    <string name="friench">Perancis</string>
+    <string name="arabic">Arab</string>
+    <string name="bengali">Benggala</string>
+    <string name="russian">Rusia</string>
+    <string name="portuguese">Portugis</string>
+    <string name="indonesian">bahasa Indonesia</string>
+    <string name="german">Jerman</string>
+    <string name="italian">Italia</string>
+    <string name="korean">Korea</string>
+    <string name="next">BERIKUTNYA</string>
+    <string name="intro_one">Deteksi kebohongan menggunakan teknologi pemindaian sidik jari dan mata</string>
+    <string name="intro_two">Aplikasi menyenangkan untuk digunakan di pesta. Dirancang untuk 1 atau 2 pengguna.</string>
+    <string name="tip_to_play">ketika temanmu memulai tesnya benar atau salah</string>
+    <string name="tip_to_play_title">TIPS BERMAIN</string>
+    <string name="btn_i_got_it">SAYA MENDAPATKANNYA</string>
+    <string name="tip_to_play_content_1">Sebelum Anda memindai, gunakan tombol Volume Naik untuk membuat aplikasi berbunyi</string>
+    <string name="tip_to_play_content_truth">KEBENARAN</string>
+    <string name="tip_to_play_content_2">, sedangkan tombol Volume Turun membuat aplikasi berbunyi</string>
+    <string name="tip_to_play_content_lie">BERBOHONG</string>
+    <string name="fingerprint">Sidik jari</string>
+    <string name="two_player">Dua Pemain</string>
+    <string name="eyes">Mata</string>
+
+    <string name="result">HASIL</string>
+    <string name="rescan">PINDAI ULANG</string>
+    <string name="truth">ANDA MENGATAKAN KEBENARAN</string>
+    <string name="not_tell">LEBIH BAIK TIDAK MEMBERITAHU ANDA SEKARANG</string>
+    <string name="lie">KAMU BERBOHONG</string>
+    <string name="let_start">Ayo mulai</string>
+    <string name="content">Silakan letakkan kedua jari Anda pada pemindai dan jawab pertanyaan dalam 5 detik</string>
+    <string name="question">Pernahkah kamu mengaku naksir?</string>
+    <string name="question_2">Pernahkah Anda pingsan dalam keadaan mabuk?</string>
+    <string name="question_3">Apakah kamu punya pacar/pacar?</string>
+    <string name="question_4">Apakah kamu naksir salah satu temanmu?</string>
+    <string name="question_5">Pernahkah kamu berciuman?</string>
+    <string name="question_6">Pernahkah Anda berbohong tentang kesibukan agar tidak bertemu seseorang?</string>
+    <string name="question_7">Pernahkah ada yang melihatmu tanpa pakaian?</string>
+    <string name="question_8">Pernahkah Anda tidak sengaja masuk ke toilet yang salah?</string>
+    <string name="question_9">Pernahkah Anda selingkuh dari seseorang?</string>
+    <string name="question_10">Apakah kamu merindukan mantanmu?</string>
+    <string name="get_start">MEMULAI</string>
+    <string name="analyzing">Menganalisis Hasil Anda...</string>
+    <string name="see_result">LIHAT HASILNYA</string>
+    <string name="scan_success">PINDAI DENGAN SUKSES!</string>
+    <string name="permission">Izin</string>
+    <string name="permission_content">Lie Detector memerlukan izin untuk menggunakan kamera perangkat untuk mendeteksi kebohongan dan kebenaran.</string>
+    <string name="permit_camera">Izinkan akses kamera</string>
+    <string name="permission_granted">Izin diberikan</string>
+    <string name="btn_continue">MELANJUTKAN</string>
+    <string name="apply">Menerapkan</string>
+    <string name="only_god_knows">HANYA TUHAN YANG TAHU</string>
+    <string name="try_again">COBA LAGI</string>
+    <string name="not_found">404 TIDAK DITEMUKAN</string>
+    <string name="do_you_like_lie_detector">Apakah Anda suka Pendeteksi Kebohongan?</string>
+    <string name="rate_your_experience">Nilai pengalaman Anda</string>
+    <string name="maybe_late">Mungkin nanti</string>
+    <string name="submit">Kirim</string>
+    <string name="splash_2_text">Aplikasi ini dapat berisi iklan</string>
+
+
+    <string name="hold_to_scan">Tahan Untuk Memindai</string>
+</resources>

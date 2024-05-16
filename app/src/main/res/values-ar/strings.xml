@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كاشف الكذب</string>
+    <string name="select_language">لغة</string>
+    <string name="english">إنجليزي</string>
+    <string name="hindi">الهندية</string>
+    <string name="spanish">الأسبانية</string>
+    <string name="friench">فرنسي</string>
+    <string name="arabic">عربي</string>
+    <string name="bengali">البنغالية</string>
+    <string name="russian">الروسية</string>
+    <string name="portuguese">البرتغالية</string>
+    <string name="indonesian">الاندونيسية</string>
+    <string name="german">ألمانية</string>
+    <string name="italian">ايطالي</string>
+    <string name="korean">الكورية</string>
+    <string name="next">التالي</string>
+    <string name="intro_one">كشف الأكاذيب باستخدام تقنية بصمة الإصبع ومسح العين</string>
+    <string name="intro_two">تطبيق ممتع للاستخدام في الحفلات. مصممة لمستخدمين واحد أو اثنين.</string>
+    <string name="tip_to_play">عندما يبدأ صديقك الاختبار صح أم خطأ</string>
+    <string name="tip_to_play_title">نصيحة للعب</string>
+    <string name="btn_i_got_it">حصلت عليه</string>
+    <string name="tip_to_play_content_1">قبل إجراء المسح الضوئي، استخدم زر رفع مستوى الصوت لجعل التطبيق يقول</string>
+    <string name="tip_to_play_content_truth">حقيقة</string>
+    <string name="tip_to_play_content_2">، بينما يجعل زر خفض مستوى الصوت التطبيق يقول</string>
+    <string name="tip_to_play_content_lie">كذب</string>
+    <string name="fingerprint">بصمة</string>
+    <string name="two_player">لاعبان</string>
+    <string name="eyes">عيون</string>
+
+    <string name="result">نتيجة</string>
+    <string name="rescan">إعادة المسح</string>
+    <string name="truth">أنت تقول الحقيقة</string>
+    <string name="not_tell">الأفضل أن لا أقول لكم الآن</string>
+    <string name="lie">انت تكذب</string>
+    <string name="let_start">لنبدأ</string>
+    <string name="content">يرجى وضع إصبعيك على الماسح الضوئي والإجابة على السؤال خلال 5 ثوانٍ</string>
+    <string name="question">هل سبق لك أن اعترفت بإعجابك؟</string>
+    <string name="question_2">هل سبق لك أن فقدت الوعي في حالة سكر؟</string>
+    <string name="question_3">هل لديك صديقة صديقها؟</string>
+    <string name="question_4">هل أنت معجب بأحد أصدقائك؟</string>
+    <string name="question_5">هل سبق لك وقبلت؟</string>
+    <string name="question_6">هل كذبت يومًا بشأن انشغالك لتجنب مقابلة شخص ما؟</string>
+    <string name="question_7">هل رآك أحد بدون ملابس؟</string>
+    <string name="question_8">هل سبق لك أن دخلت إلى الحمام الخطأ عن طريق الخطأ؟</string>
+    <string name="question_9">هل قمت بخيانة أحد من قبل؟</string>
+    <string name="question_10">هل تفتقد حبيبتك السابقة؟</string>
+    <string name="get_start">البدء</string>
+    <string name="analyzing">تحليل النتيجة...</string>
+    <string name="see_result">انظر النتيجة</string>
+    <string name="scan_success">تم المسح بنجاح!</string>
+    <string name="permission">إذن</string>
+    <string name="permission_content">يتطلب جهاز كشف الكذب الحصول على إذن لاستخدام كاميرا الجهاز للكشف عن الأكاذيب والحقيقة.</string>
+    <string name="permit_camera">السماح بالوصول إلى الكاميرا</string>
+    <string name="permission_granted">تم تأمين التصريح</string>
+    <string name="btn_continue">يكمل</string>
+    <string name="apply">يتقدم</string>
+    <string name="only_god_knows">الله وحده يعلم</string>
+    <string name="try_again">حاول ثانية</string>
+    <string name="not_found">404 غير موجود</string>
+    <string name="do_you_like_lie_detector">هل تحب جهاز كشف الكذب؟</string>
+    <string name="rate_your_experience">قيم تجربتك</string>
+    <string name="maybe_late">ربما في وقت لاحق</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="splash_2_text">يمكن أن يحتوي هذا التطبيق على إعلانات</string>
+
+
+    <string name="hold_to_scan">اضغط للمسح الضوئي</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532762967565",
+    "project_id": "lie-detector-prank-test",
+    "storage_bucket": "lie-detector-prank-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532762967565:android:7a50d531f2f87e5344df44",
+        "android_client_info": {
+          "package_name": "com.pgs.lie.detector.prank.test.fingerprint.scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGkZjEADk1MBgPHEnVO8BDD1OVr-RNwz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

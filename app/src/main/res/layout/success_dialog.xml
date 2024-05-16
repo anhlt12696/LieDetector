@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:gravity="center"
+   >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView1"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_190sdp"
+        app:lottie_rawRes="@raw/js_result_dialog_new"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_success"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+
+         />
+    <Button
+        android:layout_marginBottom="@dimen/_18sdp"
+        android:id="@+id/btn_ok"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:background="#00000000"
+        android:text="@string/see_result"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@+id/animationView1"
+        android:layout_alignEnd="@+id/animationView1"
+        />
+
+
+
+</RelativeLayout>

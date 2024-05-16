@@ -1,0 +1,83 @@
+<resources>
+
+
+    <string name="app_name">Lie Detector</string>
+
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanish</string>
+    <string name="friench">French</string>
+    <string name="arabic">Arabic</string>
+    <string name="bengali">Bengali</string>
+    <string name="russian">Russian</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="german">German</string>
+    <string name="italian">Italian</string>
+    <string name="korean">Korean</string>
+    <string name="next">NEXT</string>
+    <string name="intro_one">Detect lies using fingerprint and eye scanning technology</string>
+    <string name="intro_two">Fun app to use at parties. Designed for 1 or 2 users.</string>
+    <string name="tip_to_play">when your friend starts the test is right or wrong</string>
+
+    <string name="btn_i_got_it">I GOT IT</string>
+    <string name="tip_to_play_content_1">Before you scan, use the Volume Up button to make the app says</string>
+    <string name="tip_to_play_content_truth">TRUTH</string>
+    <string name="tip_to_play_content_2">, while the Volume Down button makes the app says</string>
+    <string name="tip_to_play_content_lie">LIE</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="two_player">Two Players</string>
+    <string name="eyes">Eyes</string>
+
+
+    <string name="rescan">RESCAN</string>
+    <string name="truth">YOU\'RE TELLING THE TRUTH</string>
+    <string name="not_tell">BETTER NOT TELL YOU NOW</string>
+    <string name="lie">YOU\'RE LYING</string>
+    <string name="let_start">Let\;s Start</string>
+    <string name="content">Please place both of your fingers on the scanner and answer the question in 5 seconds</string>
+    <string name="question">Have you ever confessed to a crush?</string>
+    <string name="question_2">Have you ever passed out drunk?</string>
+    <string name="question_3">Do you have a boyfriend/girlfriend?</string>
+    <string name="question_4">Do you have a crush on one of your friends?</string>
+    <string name="question_5">Have you ever kissed?</string>
+    <string name="question_6">Have you ever lied about being busy to avoid meeting someone?</string>
+    <string name="question_7">Has anyone seen you without clothes?</string>
+    <string name="question_8">Have you ever walked into the wrong restroom by mistake?</string>
+    <string name="question_9">Have you ever cheated on someone?</string>
+    <string name="question_10">Do you miss your ex?</string>
+    <string name="get_start">GET STARTED</string>
+    <string name="analyzing">Analyzing Your Result...</string>
+    <string name="see_result">SEE RESULT</string>
+    <string name="scan_success">SCAN SUCCESSFULLY!</string>
+    <string name="permission">Permission</string>
+    <string name="permission_content">Lie Detector requires permission to use the device\'s camera to detect lies and truth.</string>
+    <string name="permit_camera">Permit camera access</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="apply">Apply</string>
+    <string name="only_god_knows">ONLY GOD KNOWS</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="not_found">404 NOT FOUND</string>
+    <string name="do_you_like_lie_detector">Do you like Lie Detector?</string>
+    <string name="rate_your_experience">Rate your experience</string>
+    <string name="maybe_late">Maybe Later</string>
+    <string name="submit">Submit</string>
+
+    <string name="splash_2_text">This application can contain ads</string>
+
+    <string name="per_mission_message_camera">You must grant camera permission to use the app</string>
+    <string name="per_mission_title_camera">Camera Permission</string>
+    <string name="permission_go_to_setting">Go to setting</string>
+    <string name="permission_cancel">Cancel</string>
+
+    <string name="select_language">LANGUAGE</string>
+    <string name="tip_to_play_title">TIP TO PLAY</string>
+    <string name="result">RESULT</string>
+    <string name="hold_to_scan">Hold To Scan</string>
+
+
+
+
+
+</resources>

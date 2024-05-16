@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#293470"/> <!-- Background color when switch is off -->
+            <corners android:radius="@dimen/_5sdp"/> <!-- Rounded corners, adjust as needed -->
+            <stroke
+                android:width="@dimen/_1sdp"
+            android:color="#50000000" />
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#0E9DDD"/> <!-- Background color when switch is on -->
+            <corners android:radius="@dimen/_5sdp"/> <!-- Rounded corners, adjust as needed -->
+            <stroke
+                android:width="@dimen/_1sdp"
+            android:color="#50000000" />
+        </shape>
+    </item>
+</selector>

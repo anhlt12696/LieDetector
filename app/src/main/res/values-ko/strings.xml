@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">거짓말 탐지기</string>
+    <string name="select_language">언어</string>
+    <string name="english">영어</string>
+    <string name="hindi">힌디 어</string>
+    <string name="spanish">스페인의</string>
+    <string name="friench">프랑스 국민</string>
+    <string name="arabic">아라비아 말</string>
+    <string name="bengali">벵골 사람</string>
+    <string name="russian">러시아인</string>
+    <string name="portuguese">포르투갈 인</string>
+    <string name="indonesian">인도네시아 인</string>
+    <string name="german">독일 사람</string>
+    <string name="italian">이탈리아 사람</string>
+    <string name="korean">한국인</string>
+    <string name="next">다음</string>
+    <string name="intro_one">지문 및 안구 스캔 기술을 사용하여 거짓말 탐지</string>
+    <string name="intro_two">파티에서 사용할 수 있는 재미있는 앱입니다. 1~2명의 사용자를 위해 설계되었습니다.</string>
+    <string name="tip_to_play">친구가 테스트를 시작하면 그 테스트가 맞거나 틀릴 수도 있습니다</string>
+    <string name="tip_to_play_title">플레이 팁</string>
+    <string name="btn_i_got_it">알겠어요</string>
+    <string name="tip_to_play_content_1">스캔하기 전에 볼륨 크게 버튼을 사용하여 앱에서 다음과 같이 말하도록 하세요.</string>
+    <string name="tip_to_play_content_truth">진실</string>
+    <string name="tip_to_play_content_2">, 볼륨 작게 버튼을 누르면 앱에서 다음과 같이 말합니다.</string>
+    <string name="tip_to_play_content_lie">거짓말하다</string>
+    <string name="fingerprint">지문</string>
+    <string name="two_player">두 명의 플레이어</string>
+    <string name="eyes">눈</string>
+
+    <string name="result">결과</string>
+    <string name="rescan">다시 스캔</string>
+    <string name="truth">당신은 진실을 말하고 있습니다</string>
+    <string name="not_tell">지금은 말하지 않는 것이 좋습니다</string>
+    <string name="lie">넌 거짓말하고있어</string>
+    <string name="let_start">시작하자</string>
+    <string name="content">두 손가락을 스캐너에 대고 5초 안에 질문에 답해 주세요.</string>
+    <string name="question">좋아하는 사람에게 고백해본 적 있나요?</string>
+    <string name="question_2">술에 취해 기절한 적이 있나요?</string>
+    <string name="question_3">남자친구/여자친구가 있나요?</string>
+    <string name="question_4">친구 중 한 명에게 반한 적이 있나요?</string>
+    <string name="question_5">키스해본 적 있나요?</string>
+    <string name="question_6">누군가를 만나지 않기 위해 바쁘다고 거짓말을 한 적이 있습니까?</string>
+    <string name="question_7">당신이 옷을 입지 않은 것을 본 사람이 있습니까?</string>
+    <string name="question_8">실수로 다른 화장실에 들어간 적이 있나요?</string>
+    <string name="question_9">누군가를 속인 적이 있나요?</string>
+    <string name="question_10">전 애인이 그리워요?</string>
+    <string name="get_start">시작하다</string>
+    <string name="analyzing">결과 분석 중...</string>
+    <string name="see_result">결과 보기</string>
+    <string name="scan_success">스캔이 성공했습니다!</string>
+    <string name="permission">허가</string>
+    <string name="permission_content">거짓말 탐지기에서 거짓말과 진실을 탐지하기 위해 기기의 카메라를 사용하려면 권한이 필요합니다.</string>
+    <string name="permit_camera">카메라 접근 허용</string>
+    <string name="permission_granted">허가가 부여되었습니다</string>
+    <string name="btn_continue">계속하다</string>
+    <string name="apply">적용하다</string>
+    <string name="only_god_knows">신만이 아신다</string>
+    <string name="try_again">다시 시도하십시오</string>
+    <string name="not_found">404 찾을 수 없음</string>
+    <string name="do_you_like_lie_detector">거짓말 탐지기 앱이 마음에 드시나요?</string>
+    <string name="rate_your_experience">경험을 평가해 주세요</string>
+    <string name="maybe_late">나중에</string>
+    <string name="submit">제출하다</string>
+    <string name="splash_2_text">이 애플리케이션에는 광고가 포함될 수 있습니다.</string>
+
+
+    <string name="hold_to_scan">스캔하려면 길게 누르세요</string>
+</resources>

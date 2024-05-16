@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>text_str</key>
+        <value>Welcome to the app</value>
+    </entry>
+    <entry>
+        <key>text_size</key>
+        <value>20</value>
+    </entry>
+    <entry>
+        <key>text_color</key>
+        <value>#B61C11</value>
+    </entry>
+    <entry>
+        <key>text_str2</key>
+        <value>key 2 app</value>
+    </entry>
+    <entry>
+        <key>active_spam</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>

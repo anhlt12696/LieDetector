@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Détecteur de mensonges</string>
+    <string name="select_language">LANGUE</string>
+    <string name="english">Anglais</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Espagnol</string>
+    <string name="friench">Français</string>
+    <string name="arabic">arabe</string>
+    <string name="bengali">bengali</string>
+    <string name="russian">russe</string>
+    <string name="portuguese">Portugais</string>
+    <string name="indonesian">indonésien</string>
+    <string name="german">Allemand</string>
+    <string name="italian">italien</string>
+    <string name="korean">coréen</string>
+    <string name="next">SUIVANT</string>
+    <string name="intro_one">Détectez les mensonges grâce à la technologie de numérisation des empreintes digitales et des yeux</string>
+    <string name="intro_two">Application amusante à utiliser lors des fêtes. Conçu pour 1 ou 2 utilisateurs.</string>
+    <string name="tip_to_play">quand ton ami commence, le test est bon ou mauvais</string>
+    <string name="tip_to_play_title">ASTUCE POUR JOUER</string>
+    <string name="btn_i_got_it">J\'AI COMPRIS</string>
+    <string name="tip_to_play_content_1">Avant de numériser, utilisez le bouton d\'augmentation du volume pour que l\'application dise</string>
+    <string name="tip_to_play_content_truth">VÉRITÉ</string>
+    <string name="tip_to_play_content_2">, tandis que le bouton Volume bas fait dire à l\'application</string>
+    <string name="tip_to_play_content_lie">MENSONGE</string>
+    <string name="fingerprint">Empreinte digitale</string>
+    <string name="two_player">Deux joueurs</string>
+    <string name="eyes">Yeux</string>
+
+    <string name="result">RÉSULTAT</string>
+    <string name="rescan">RESCAN</string>
+    <string name="truth">VOUS DITES LA VÉRITÉ</string>
+    <string name="not_tell">MIEUX NE PAS VOUS LE DIRE MAINTENANT</string>
+    <string name="lie">TU MENT</string>
+    <string name="let_start">Commençons</string>
+    <string name="content">Veuillez placer vos deux doigts sur le scanner et répondre à la question en 5 secondes.</string>
+    <string name="question">Avez-vous déjà avoué un béguin ?</string>
+    <string name="question_2">Vous êtes-vous déjà évanoui en étant ivre ?</string>
+    <string name="question_3">Avez-vous une petite amie de petit ami?</string>
+    <string name="question_4">Avez-vous le béguin pour un de vos amis ?</string>
+    <string name="question_5">As-tu déjà embrassé?</string>
+    <string name="question_6">Avez-vous déjà menti sur le fait d\'être occupé pour éviter de rencontrer quelqu\'un ?</string>
+    <string name="question_7">Quelqu\'un vous a-t-il vu sans vêtements ?</string>
+    <string name="question_8">Êtes-vous déjà entré par erreur dans les mauvaises toilettes ?</string>
+    <string name="question_9">Avez-vous déjà trompé quelqu\'un ?</string>
+    <string name="question_10">Votre ex vous manque ?</string>
+    <string name="get_start">COMMENCER</string>
+    <string name="analyzing">Analyser votre résultat...</string>
+    <string name="see_result">VOIR LE RÉSULTAT</string>
+    <string name="scan_success">NUMÉRISEZ AVEC SUCCÈS !</string>
+    <string name="permission">Autorisation</string>
+    <string name="permission_content">Lie Detector nécessite l\'autorisation d\'utiliser la caméra de l\'appareil pour détecter les mensonges et la vérité.</string>
+    <string name="permit_camera">Autoriser l\'accès à la caméra</string>
+    <string name="permission_granted">Permission accordée</string>
+    <string name="btn_continue">CONTINUER</string>
+    <string name="apply">Appliquer</string>
+    <string name="only_god_knows">DIEU SEUL LE SAIT</string>
+    <string name="try_again">ESSAYER À NOUVEAU</string>
+    <string name="not_found">404 NON TROUVÉ</string>
+    <string name="do_you_like_lie_detector">Aimez-vous Détecteur de mensonge?</string>
+    <string name="rate_your_experience">Évaluez votre expérience</string>
+    <string name="maybe_late">Peut-être plus tard</string>
+    <string name="submit">Soumettre</string>
+    <string name="splash_2_text">Cette application peut contenir des publicités</string>
+
+
+    <string name="hold_to_scan">Maintenir pour numériser</string>
+</resources>

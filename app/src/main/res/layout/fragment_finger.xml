@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liedetector.fragment.FingerFragment"
+ >
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll_img"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--       app:layout_constraintBottom_toTopOf="@+id/ll_hold_to_scan"-->
+<!--    android:layout_marginBottom="@dimen/_16sdp"-->
+<!--        android:layout_marginHorizontal="@dimen/_16sdp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--         android:id="@+id/img_screen"-->
+<!--         android:layout_width="wrap_content"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:background="@drawable/img_finger_scan_2x"-->
+<!--          />-->
+<!--       -->
+<!--        <TextView-->
+<!--            android:id="@+id/img_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/bg_hold_to_scan_2x"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:paddingTop="@dimen/_7sdp"-->
+<!--            android:layout_marginHorizontal="@dimen/_1sdp"-->
+<!--            android:text="@string/hold_to_scan"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="13sp"-->
+<!--          >-->
+
+<!--        </TextView>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/ll_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ll_hold_to_scan"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/img_screen"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img"-->
+<!--                android:layout_width="@dimen/_275sdp"-->
+<!--                android:layout_height="@dimen/_150sdp"-->
+<!--                android:src="@drawable/test_ainim_finger"-->
+<!--                 android:layout_gravity="center"-->
+<!--                />-->
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/gif_anim"-->
+<!--                android:layout_width="@dimen/_275sdp"-->
+<!--                android:layout_height="@dimen/_150sdp"-->
+<!--                android:visibility="invisible"-->
+<!--                app:lottie_rawRes="@raw/js_home"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="false"-->
+<!--                android:layout_gravity="center"/>-->
+
+<!--        </FrameLayout>-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/gif_anim"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="@dimen/_150sdp"
+            app:lottie_rawRes="@raw/js_finger_home"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            android:layout_gravity="center"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/gif_anim_scan"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="@dimen/_150sdp"
+            app:lottie_rawRes="@raw/js_finger_home_scan"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/img_text"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_hold_to_scan_2x"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/_7sdp"
+            android:layout_marginHorizontal="@dimen/_1sdp"
+            android:paddingHorizontal="@dimen/_60sdp"
+            android:text="@string/hold_to_scan"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+           />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_hold_to_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/img_line"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:background="@drawable/ic_led_not_tell"
+            android:layout_marginEnd="32dp"
+            />
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:background="@drawable/ic_led_not_tell"
+            />
+
+    </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_line"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/img_line"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal"-->
+<!--        app:layout_constraintTop_toTopOf="@id/guideline_horizontal"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:importantForAccessibility="no" />-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/img_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+      app:lottie_rawRes="@raw/js_line"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal"
+        app:layout_constraintTop_toTopOf="@id/guideline_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:importantForAccessibility="no" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_led_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         app:layout_constraintTop_toBottomOf="@+id/img_line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_3sdp"
+        >
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="@dimen/_165sdp"-->
+<!--            android:background="@drawable/ic_led_anim_left"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/ic_led_anim_right"/>-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_140sdp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/js_dot"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_15sdp"
+            app:lottie_autoPlay="true"
+            android:rotationY="180"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/js_dot"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_finger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_finger"
+        android:gravity="center"
+      >
+
+        <ImageView
+            android:id="@+id/btn_vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_vibrate_on"
+            android:contentDescription="TODO" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_finger"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="@dimen/_30sdp"-->
+<!--            android:background="@drawable/img_finger" />-->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btn_finger"
+            android:layout_width="@dimen/_115sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            app:lottie_rawRes="@raw/js_finger"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+
+        <ImageView
+            android:id="@+id/btn_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_sound_on" />
+
+    </LinearLayout>
+
+    <!--<androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom_finger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Macchina della verità</string>
+    <string name="select_language">LINGUA</string>
+    <string name="english">Inglese</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">spagnolo</string>
+    <string name="friench">francese</string>
+    <string name="arabic">Arabo</string>
+    <string name="bengali">bengalese</string>
+    <string name="russian">russo</string>
+    <string name="portuguese">portoghese</string>
+    <string name="indonesian">indonesiano</string>
+    <string name="german">Tedesco</string>
+    <string name="italian">Italiano</string>
+    <string name="korean">coreano</string>
+    <string name="next">PROSSIMO</string>
+    <string name="intro_one">Rileva le bugie utilizzando la tecnologia di scansione delle impronte digitali e degli occhi</string>
+    <string name="intro_two">App divertente da usare alle feste. Progettato per 1 o 2 utenti.</string>
+    <string name="tip_to_play">quando il tuo amico inizia il test è giusto o sbagliato</string>
+    <string name="tip_to_play_title">CONSIGLIO PER GIOCARE</string>
+    <string name="btn_i_got_it">CAPITO</string>
+    <string name="tip_to_play_content_1">Prima di eseguire la scansione, utilizza il pulsante Volume su per far sì che l\'app dica</string>
+    <string name="tip_to_play_content_truth">VERITÀ</string>
+    <string name="tip_to_play_content_2">, mentre il pulsante Volume giù fa dire all\'app</string>
+    <string name="tip_to_play_content_lie">MENZOGNA</string>
+    <string name="fingerprint">impronta digitale</string>
+    <string name="two_player">Due giocatori</string>
+    <string name="eyes">Occhi</string>
+
+    <string name="result">RISULTATO</string>
+    <string name="rescan">RESCAN</string>
+    <string name="truth">STAI DICE LA VERITÀ</string>
+    <string name="not_tell">MEGLIO NON DIRLO ORA</string>
+    <string name="lie">STAI MENTENDO</string>
+    <string name="let_start">Iniziamo</string>
+    <string name="content">Posiziona entrambe le dita sullo scanner e rispondi alla domanda in 5 secondi</string>
+    <string name="question">Hai mai confessato una cotta?</string>
+    <string name="question_2">Sei mai svenuto ubriaco?</string>
+    <string name="question_3">Hai un fidanzato/fidanzata?</string>
+    <string name="question_4">Hai una cotta per uno dei tuoi amici?</string>
+    <string name="question_5">Hai mai baciato?</string>
+    <string name="question_6">Hai mai mentito dicendo che sei occupato per evitare di incontrare qualcuno?</string>
+    <string name="question_7">Qualcuno ti ha visto senza vestiti?</string>
+    <string name="question_8">Ti è mai capitato di entrare per sbaglio nel bagno sbagliato?</string>
+    <string name="question_9">Hai mai tradito qualcuno?</string>
+    <string name="question_10">Ti manca il tuo ex?</string>
+    <string name="get_start">INIZIARE</string>
+    <string name="analyzing">Analizzando il risultato...</string>
+    <string name="see_result">VEDI RISULTATO</string>
+    <string name="scan_success">SCANSIONE CON SUCCESSO!</string>
+    <string name="permission">Autorizzazione</string>
+    <string name="permission_content">Lie Detector richiede l\'autorizzazione per utilizzare la fotocamera del dispositivo per rilevare bugie e verità.</string>
+    <string name="permit_camera">Consenti l\'accesso alla telecamera</string>
+    <string name="permission_granted">Permesso accordato</string>
+    <string name="btn_continue">CONTINUA</string>
+    <string name="apply">Fare domanda a</string>
+    <string name="only_god_knows">SOLO DIO LO SA</string>
+    <string name="try_again">RIPROVA</string>
+    <string name="not_found">404 NON TROVATO</string>
+    <string name="do_you_like_lie_detector">Ti piace La macchina della verità?</string>
+    <string name="rate_your_experience">Valuta la tua esperienza</string>
+    <string name="maybe_late">Forse più tardi</string>
+    <string name="submit">Invia</string>
+    <string name="splash_2_text">Questa applicazione può contenere annunci</string>
+
+
+    <string name="hold_to_scan">Tieni premuto per eseguire la scansione</string>
+</resources>

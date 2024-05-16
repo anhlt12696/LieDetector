@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Detector de mentiras</string>
+    <string name="select_language">LINGUAGEM</string>
+    <string name="english">Inglês</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Espanhol</string>
+    <string name="friench">Francês</string>
+    <string name="arabic">árabe</string>
+    <string name="bengali">bengali</string>
+    <string name="russian">russo</string>
+    <string name="portuguese">Português</string>
+    <string name="indonesian">indonésio</string>
+    <string name="german">Alemão</string>
+    <string name="italian">italiano</string>
+    <string name="korean">coreano</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="intro_one">Detecte mentiras usando tecnologia de digitalização de impressões digitais e olhos</string>
+    <string name="intro_two">Aplicativo divertido para usar em festas. Projetado para 1 ou 2 usuários.</string>
+    <string name="tip_to_play">quando seu amigo começa o teste está certo ou errado</string>
+    <string name="tip_to_play_title">DICA PARA JOGAR</string>
+    <string name="btn_i_got_it">EU ENTENDI</string>
+    <string name="tip_to_play_content_1">Antes de digitalizar, use o botão Aumentar volume para fazer o aplicativo dizer</string>
+    <string name="tip_to_play_content_truth">VERDADE</string>
+    <string name="tip_to_play_content_2">, enquanto o botão Diminuir volume faz o aplicativo dizer</string>
+    <string name="tip_to_play_content_lie">MENTIRA</string>
+    <string name="fingerprint">Impressão digital</string>
+    <string name="two_player">Dois jogadores</string>
+    <string name="eyes">Olhos</string>
+
+    <string name="result">RESULTADO</string>
+    <string name="rescan">NOVAMENTE</string>
+    <string name="truth">VOCÊ ESTÁ DIZENDO A VERDADE</string>
+    <string name="not_tell">MELHOR NÃO TE DIZER AGORA</string>
+    <string name="lie">VOCÊ ESTÁ MENTINDO</string>
+    <string name="let_start">Vamos começar</string>
+    <string name="content">Por favor, coloque ambos os dedos no scanner e responda à pergunta em 5 segundos</string>
+    <string name="question">Você já confessou uma paixão?</string>
+    <string name="question_2">Você já desmaiou bêbado?</string>
+    <string name="question_3">Você tem namorado/namorada?</string>
+    <string name="question_4">Você tem uma queda por um de seus amigos?</string>
+    <string name="question_5">Voce ja beijou?</string>
+    <string name="question_6">Você já mentiu sobre estar ocupado para evitar conhecer alguém?</string>
+    <string name="question_7">Alguém te viu sem roupa?</string>
+    <string name="question_8">Você já entrou no banheiro errado por engano?</string>
+    <string name="question_9">Você já traiu alguém?</string>
+    <string name="question_10">Você sente falta do seu ex?</string>
+    <string name="get_start">INICIAR</string>
+    <string name="analyzing">Analisando Seu Resultado...</string>
+    <string name="see_result">VER RESULTADO</string>
+    <string name="scan_success">DIGITALIZAÇÃO COM SUCESSO!</string>
+    <string name="permission">Permissão</string>
+    <string name="permission_content">Lie Detector requer permissão para usar a câmera do dispositivo para detectar mentiras e verdades.</string>
+    <string name="permit_camera">Permitir acesso à câmera</string>
+    <string name="permission_granted">Permissão garantida</string>
+    <string name="btn_continue">CONTINUAR</string>
+    <string name="apply">Aplicar</string>
+    <string name="only_god_knows">SÓ DEUS SABE</string>
+    <string name="try_again">TENTE NOVAMENTE</string>
+    <string name="not_found">404 NÃO ENCONTRADO</string>
+    <string name="do_you_like_lie_detector">Você gosta de Detector de Mentiras?</string>
+    <string name="rate_your_experience">Avalie sua experiência</string>
+    <string name="maybe_late">Talvez mais tarde</string>
+    <string name="submit">Enviar</string>
+    <string name="splash_2_text">Este aplicativo pode conter anúncios</string>
+
+
+    <string name="hold_to_scan">Segure para digitalizar</string>
+</resources>
